@@ -1,0 +1,23 @@
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.counter span {
+    font-size: 6rem;
+    color: #ffffff;
+}
+
+.counter .number {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.counter .try {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin-top: 4rem;
+}

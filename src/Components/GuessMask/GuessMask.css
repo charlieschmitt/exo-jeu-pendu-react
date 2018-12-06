@@ -1,0 +1,32 @@
+.guess-mask {
+    display: grid;
+    grid-template-columns: repeat(36, 1fr);
+    align-items: center;
+    margin: 2rem 5rem;
+}
+
+.mask { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin: .5rem;
+}
+
+.visible > span{
+    font-size: 3rem;
+    color: #00ca69;
+    animation: opacityAnimation 1s ease-in; 
+}
+
+@keyframes opacityAnimation {
+    0% {
+      opacity: 0.1;
+    }
+    30%{
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
