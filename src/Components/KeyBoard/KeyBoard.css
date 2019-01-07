@@ -1,8 +1,8 @@
-.test-button {
+.keyboard {
     display: grid;
     grid-template-rows: repeat(2, 20%);
     grid-template-columns: repeat(13, 1fr);
-  }
+}
 
 .letter {
     display: flex;

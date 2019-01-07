@@ -13,8 +13,8 @@
     margin: .5rem;
 }
 
-.visible > span{
-    font-size: 3rem;
+.visible > span {
+    font-size: 2rem;
     color: #00ca69;
     animation: opacityAnimation 1s ease-in; 
 }
@@ -29,4 +29,4 @@
     100% {
         opacity: 1;
     }
-  }
+}
